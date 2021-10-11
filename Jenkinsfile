@@ -1,7 +1,7 @@
 pipeline {
     agent any
     
-    properties([parameters([choice(choices: ['main feature'], description: 'Please select appropriate branch', name: 'branch')])])
+    
     
     stages {
         stage ('Checkout') {
