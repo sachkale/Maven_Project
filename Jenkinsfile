@@ -6,7 +6,7 @@ string(name: 'Greeting', defaultValue: 'Hello', description: 'How should I greet
 stages {
 stage('Example') {
 steps {
-echo "${params.Greeting} World!"
+echo "${Greeting} World!"
 }
 }
 }
